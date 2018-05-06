@@ -1,0 +1,88 @@
+body {
+	background: url(img/background.jpg) no-repeat center right fixed;
+	background-size: cover;
+}
+
+#the-board {
+	width: 450px;
+	height: 450px;
+	background: rgba(255, 255, 255, 0.8);
+	border: solid rgba(255, 255, 255, 0.9) 3px;
+	position: relative;
+}
+
+.square {
+	background: url(img/tigre.jpg);
+	width: 33%;
+	height: 33%;
+	position: absolute;
+	z-index:100;
+}
+
+.fixed-piece {
+	opacity: 0.2;
+	z-index:1;
+}
+
+#piece_1_1 {
+	top: 0;
+	left: 0;
+	background-position: top left;
+}
+
+#piece_2_1 {
+	top: 0;
+	left: 33.5%;
+	background-position: top center;
+}
+
+#piece_3_1 {
+	top: 0;
+	left: 67%;
+	background-position: top right;
+}
+
+#piece_1_2 {
+	top: 33.5%;
+	left: 0;
+	background-position: center left;
+}
+
+#piece_2_2 {
+	top: 33.5%;
+	left: 33.5%;
+	background-position: center center;
+}
+
+#piece_3_2 {
+	top: 33.5%;
+	left: 67%;
+	background-position: center right;
+}
+
+#piece_1_3 {
+	top: 67%;
+	left: 0;
+	background-position: bottom left;
+}
+
+#piece_2_3 {
+	top: 67%;
+	left: 33.5%;
+	background-position: bottom center;
+}
+
+#piece_3_3 {
+	top: 67%;
+	left: 67%;
+	background-position: bottom right;
+}
+
+#actions {
+	padding: 1em;
+	width: 450px;
+}
+
+#win {
+	display: none;
+}

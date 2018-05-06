@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css" >
+	<link rel="stylesheet" href="style.css" >
+	
+    <title>Dojo Puzzle</title>
+  </head>
+  <body>
+    <h1 class="text-center">Dojo Puzzle</h1>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+              <div id="the-board">
+                  <div id="piece_1_1" class="square puzzle-piece"></div>
+                  <div id="piece_2_1" class="square puzzle-piece"></div>
+                  <div id="piece_3_1" class="square puzzle-piece"></div>
+                  <div id="piece_1_2" class="square puzzle-piece"></div>
+                  <div id="piece_2_2" class="square puzzle-piece"></div>
+                  <div id="piece_3_2" class="square puzzle-piece"></div>
+                  <div id="piece_1_3" class="square puzzle-piece"></div>
+                  <div id="piece_2_3" class="square puzzle-piece"></div>
+                  <div id="piece_3_3" class="square fixed-piece"></div>
+                </div>
+          </div>
+    
+          <div class="col-sm text-left" style="border-style:  solid;
+            border-color: rgb(107, 95, 95); border-width: 3px;"
+            <div id="actions" class="text-center">
+    		      <div id="win" class="alert alert-success">Congratulations!</div>
+              <button id="play" class="btn btn-primary">Play</button> This button starts the game
+              <br/>
+              <br/>
+              <div class="dropdown">
+                  <button type="button" class="btn btn-primary dropdown-toggle " data-toggle="dropdown">
+                      Difficulty:
+                      <span id="difficultyVal" class="game-text">Noob</span>
+                  </button>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" data-val="15"     href="#">Noob</a>
+                      <a class="dropdown-item" data-val="30"    href="#">Semi Noob</a>
+                      <a class="dropdown-item" data-val="40"    href="#">Pro</a>
+                      <a class="dropdown-item" data-val="1000"  href="#">Master</a>
+                  </div>
+              </div>
+              <br/>
+              <br/>
+              <div>
+                 <span id="count">0</span> moves.
+              </div>
+                  </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 9737665;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<!-- End of LiveChat code -->
+        
+          </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+    
+    	
+    	
+    	
+    	
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.2.1.slim.min.js" ></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
