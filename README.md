@@ -1,1 +1,1 @@
-# https://redendymion.github.io/Puzzel
+# puzzel.github.io
